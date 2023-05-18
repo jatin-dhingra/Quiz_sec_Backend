@@ -22,6 +22,7 @@ const userData = new mongoose.Schema({
 
 const User = mongoose.model('User', userData);
 
+console.log("checking commit");
 
 
 app.use(express.json());
